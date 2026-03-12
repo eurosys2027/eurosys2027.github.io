@@ -242,6 +242,31 @@ header.masthead .intro-text .intro-heading {
     margin-top: -3px;
 }
 
+/* Dropdown menu styling */
+#mainNav .dropdown-menu {
+    background-color: #222;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+}
+
+#mainNav .dropdown-menu .dropdown-item {
+    color: white;
+    font-size: 85%;
+    padding: 0.5em 1.5em;
+    letter-spacing: 1px;
+}
+
+#mainNav .dropdown-menu .dropdown-item:hover,
+#mainNav .dropdown-menu .dropdown-item:focus {
+    color: #f44;
+    background-color: #333;
+}
+
+#mainNav .dropdown-toggle::after {
+    margin-left: 0.3em;
+}
+
 /* Add padding to sections on smaller screens */
 @media (max-width: 767px) {
     section {
